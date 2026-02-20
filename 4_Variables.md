@@ -15,5 +15,21 @@ To create a variable in Java, you need to:
 -    Optionally assign it a value using =
 
 # String name = "John";
+# int number = 100;
 
+# int number;
+# number = 100;
+You can also declare a variable without assigning the value, and assign the value later:
+
+
+you assign a new value to an existing variable, it will overwrite the previous value:
+# String device = "Dell xps";
+# device =  "Lenovo";
+
+
+
+# Final Variables
+
+If you don't want others (or yourself) to overwrite existing values, 
+use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
 
