@@ -17,3 +17,30 @@
 # Note: When dividing two integers in Java, the result will also be an integer. For example, 10 / 3 gives 3. If you want a decimal result, use double values, like 10.0 / 3.
 
 
+Sometimes, you might both increment and decrement the same variable. Remember that if you increase a value and later decrease it, it will go up by one and then back down by one - ending up where it started:
+
+
+# Assignment Operators
+    Assignment operators are used to assign values to variables.we use the assignment operator (=) to assign the value 10 to a variable called x:
+    addition assignment operator (+=) adds a value to a variable:
+
+
+    Operator 	Example 	Same As 
+#       =    	x = 5   	x = 5 	
+#       +=   	x += 3 	    x = x + 3 	
+#       -= 	    x -= 3 	    x = x - 3 	
+#       *=   	x *= 3   	x = x * 3 	
+#       /=  	x /= 3  	x = x / 3 	
+#       %= 	    x %= 3   	x = x % 3 	
+#       &= 	    x &= 3 	    x = x & 3 	
+#       |= 	    x |= 3 	    x = x | 3 	
+#       ^=  	x ^= 3 	    x = x ^ 3 	
+#       >>= 	x >>= 3 	x = x >> 3 	
+#       <<= 	x <<= 3 	x = x << 3 	
+
+
+Note: Most assignment operators are just shorter ways of writing code. For example, x += 5 is the same as x = x + 5, but shorter and often easier to read.
+
+
+
+# Comparison Operators
